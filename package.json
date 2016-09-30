@@ -1,0 +1,12 @@
+{
+    "name": "portfolio",
+    "private": true,
+    "version": "0.0.1",
+    "description": "CV Portfolio",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.13.3",
+        "restler": "^3.3.0",
+        "cfenv": "*"
+    }
+}
