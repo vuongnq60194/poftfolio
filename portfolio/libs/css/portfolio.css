@@ -1,10 +1,22 @@
+@media and screen (min-width: 770px) {
+    min-height: 100%;
+}
+
 .p-top-banner {
-    background-image: url("../media/Sydney.JPG");
+    background-image: url("../media/header.jpg");
+    min-height: auto;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    /*
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    /**/
-/*
+*/
+    /*
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
