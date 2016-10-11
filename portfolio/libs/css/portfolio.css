@@ -1,28 +1,49 @@
-@media and screen (min-width: 770px) {
-    min-height: 100%;
+.flex-box-system {
+    flex-wrap: wrap;
+    display: flex;
+    vertical-align: top;
 }
 
-.p-top-banner {
-    background-image: url("../media/header.jpg");
-    min-height: auto;
-    min-height: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    /*
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-*/
-    /*
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-*/
+.fb-xlg,
+.fb-lg,
+.fb-md,
+.fb-sm {
+    padding: 10px;
+}
+
+.fb-xlg {
+    width: 100%;
+}
+
+.fb-lg {
+    width: 75%;
+}
+
+.fb-md {
+    width: 50%;
+}
+
+.fb-sm {
+    width: 25%;
+}
+
+.panel-default {
+    border-radius: 0px;
+}
+
+
+/**/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.list-items {
+    overflow-x: scroll;
+    display: flex;
+}
+
+.list-items > .item {
+    min-width: 100%;
+    min-height: 97vh;
 }
